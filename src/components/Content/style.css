@@ -1,0 +1,18 @@
+/* styles.css */
+@keyframes growWidth {
+    0% { width: 33%; }
+    100% { width: 100%; }
+}
+
+@keyframes changeColor {
+    0% { background: linear-gradient(to right, white, blue, white); }
+    100% { background: linear-gradient(to right, white, blue); }
+}
+
+.animate-growWidth {
+    animation: growWidth 2s forwards;
+}
+
+.animate-changeColor {
+    animation: changeColor 2s forwards;
+}
