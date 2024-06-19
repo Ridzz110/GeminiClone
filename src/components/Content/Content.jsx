@@ -60,7 +60,7 @@ const Content = () => {
                         <img src={userIcon} alt="user" className="h-8 rounded-full mr-4" />
                         <p>{recentPrompt}</p>
                     </div>
-                    <div className='w-2/3 h-auto flex flex-row justify-start items-start pb-40'>
+                    <div className='w-3/5 h-auto flex flex-row justify-start items-start pb-40'>
                         <img src={geminiIcon} alt="gemini" className="h-8 rounded-full" />
                         {loading ? (
                              <div className='flex flex-col w-full justify-start animate-pulse'>
